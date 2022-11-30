@@ -21,9 +21,9 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Screenshots
 
-<h3 align="center">Screenhot</h3>
+<h3 align="center">App Page structure</h3>
 <p align="center">
-  <img width="500" src="#">
+  <img width="500" src="screenshot/page_demo.png">
 </P>
 
 ## Built With
