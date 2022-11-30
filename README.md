@@ -1,17 +1,23 @@
 ![](https://img.shields.io/badge/fmanimashaun-green)
 
-# Webpack 5 boilerplate with Sass
+# Leaderboard
 
 ## Overview
 
-This is a simple webpack 5 boilerplate for a static website using Sass and reset css.
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3). In this activity you will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. The first working version of the app will be developed following a wireframe, but without styling - just focus on functionality.while in later version, the Leaderboard API will be consumed using JavaScript async and await and add some styling.
 
 ## Project Objectives
+
+- [ ] Write plain HTML markup with minimum styling (just to make the layout) using the wireframe below as a guide:
+
+<p align="center">
+  <img width="500" src="#">
+</P>
 
 
 ## DEMO LINK
 
-> [Live Demo Link](https://fmanimashaun.github.io/webpack-boilerplate/)
+> [Live Demo Link](https://fmanimashaun.github.io/leaderboard/)
 
 ## Screenshots
 
@@ -26,10 +32,8 @@ This is a simple webpack 5 boilerplate for a static website using Sass and reset
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [JavaScript/ES6](https://262.ecma-international.org/6.0/)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [webpack 5](https://webpack.js.org/)
 - [npm](https://www.npmjs.com/)
-- [VS Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com)
 - [Stylelinter](https://stylelint.io/)
@@ -54,11 +58,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Open your GitHub account the repository's [link](https://github.com/fmanimashaun/webpack-boilerplate)
+- Open your GitHub account the repository's [link](https://github.com/fmanimashaun/leaderboard)
 
 ### Install
 
-- copy the repo's link and clone it by writing `git clone https://github.com/fmanimashaun/webpack-boilerplate.git` on your git bash terminal.
+- copy the repo's link and clone it by writing `git clone https://github.com/fmanimashaun/leaderboard.git` on your git bash terminal.
 - `npm install` to install the dependencies
 
 ### Run tests
