@@ -50,75 +50,8 @@ body {
   margin-block: 2rem 0;
 }
 
-/* header section styles
------------------------------------- */
-.header,
-.header__wrapper,
-.header__nav-list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-}
-
-.header>*,
-.header__wrapper>* {
-  width: 100%;
-}
-
-.header__wrapper {
-  border: 4px solid #000;
-  font-weight: bold;
-}
-
-.header__logo,
-.header__nav-list>* {
-  padding: 0.5rem 1rem;
-}
-
-.header__logo {
-  display: block;
-  border-block-end: 4px solid #000;
-}
-
-.header__nav-list>.header__nav-item {
-  flex: 1;
-  cursor: pointer;
-}
-
-.header__nav-list>.header__nav-item:hover,
-.header__nav-item.active {
-  background-color: #000;
-  color: #fff;
-}
-
-.header__nav-list>.header__nav-item:active {
-  background-color: #fff;
-  color: #000;
-}
-
-/* Disable click event on active list item */
-.header__nav-item.active {
-  background-color: #000;
-  color: #fff;
-  pointer-events: none;
-}
-
-.header__nav-list>li+li {
-  border-inline-start: 2px solid #000;
-}
-
-.header__date {
-  text-align: right;
-}
-
 /* book collection section styles
 ------------------------------------ */
-.book__collection.hidden {
-  display: none;
-}
-
 .book__collection-title {
   text-align: center;
   font-size: 30px;
