@@ -11,7 +11,7 @@ The leaderboard website displays scores submitted by different players. It also 
 - [ ] Write plain HTML markup with minimum styling (just to make the layout) using the wireframe below as a guide:
 
 <p align="center">
-  <img width="500" src="#">
+  <img width="500" src="screenshot/leaderboard_wireframe.png">
 </P>
 
 
