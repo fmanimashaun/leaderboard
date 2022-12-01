@@ -1,0 +1,50 @@
+/* stylelint-disable at-rule-no-unknown */
+@use './fonts.scss';
+
+/* Global styles
+------------------------------------ */
+:root {
+  /* Default font size */
+  font-size: 16px;
+}
+
+body {
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  /* stylelint-disable csstree/validator */
+  font-family: fonts.$primary-ff;
+  /* stylelint-enable csstree/validator */
+  font-weight: normal;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 750px;
+  min-height: 100vh;
+  margin-inline: auto;
+  padding-block: 2rem;
+}
+
+.container > * {
+  max-width: 100%;
+}
+
+.container > main {
+  margin-block-end: auto;
+}
+
+/* Remove Arrows/Spinners in Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove Arrows/Spinners Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
