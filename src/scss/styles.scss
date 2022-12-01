@@ -1,7 +1,8 @@
+/* stylelint-disable at-rule-no-unknown */
 @use './global.scss';
 @use './_mixin.scss' as mixins;
 
-/*main section styles
+/* main section styles
 ------------------------------------ */
 .main__page-title {
   font-size: 2rem;
@@ -42,7 +43,7 @@
   }
 }
 
-/*scoreboard table section styles end */
+/* scoreboard table section styles end */
 .scoreboard__score {
   display: flex;
   flex-direction: column;
@@ -67,7 +68,6 @@
 .add__score {
   display: flex;
   flex-direction: column;
-
   max-width: 250px;
 
   &-header {
@@ -99,6 +99,7 @@
 
   &-btn {
     @include mixins.btn;
+
     align-self: flex-end;
     width: fit-content;
   }
