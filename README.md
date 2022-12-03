@@ -26,7 +26,7 @@
 
 ## 📖 Overview <a name="about-project"></a>
 
-The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3). In this activity, the JavaScript project for the Leaderboard list app was set up using webpack and ES6 features, notably modules. The first working version of the app was developed following a [wireframe provided](https://github.com/microverseinc/curriculum-javascript/blob/main/leaderboard/m1_basic_structure.md). while in the later versions, the Leaderboard API will be consumed using JavaScript async and await and add some styling.
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3). In this activity, the JavaScript project for the Leaderboard list app was set up using webpack and ES6 features, notably modules and the page was styled based on the given [wireframe](https://github.com/microverseinc/curriculum-javascript/blob/main/leaderboard/images/leaderboard_wireframe.png) In addtion to the page structure, a new game was created using the given [API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3), and the refresh and submit buttons functionality were added to the page.
 
 ### Project Objectives <a name="project-objectives"></a>
 
@@ -37,6 +37,10 @@ The leaderboard website displays scores submitted by different players. It also 
   <img width="500" src="screenshot/leaderboard_wireframe.png">
 </P>
 
+- [x] Implement the "Refresh" button that will get all scores for a game created from the [API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) (receiving data from the API and parsing the JSON).
+- [x] Implement the form "Submit" button that will save a score for a game created to the [API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) (sending data to the API).
+- [x] Use arrow functions instead of the function keyword.
+- [x] Use async and await JavaScript features to consume the API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,6 +57,7 @@ The leaderboard website displays scores submitted by different players. It also 
 - [Webhint](https://webhint.io/)
 - [Lighthouse](https://ethcar.github.io/lighthouse/)
 - [SASS](https://sass-lang.com/)
+- [API](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
 
 ### Key Features <a name="key-features"></a>
 
@@ -84,7 +89,7 @@ To get a local copy up and running follow these simple example steps.
 ### Install <a name="install"></a>
 
 - copy the repo's link and clone it by writing `git clone https://github.com/fmanimashaun/leaderboard.git` on your git bash terminal.
-- `npm install` to install the dependencies
+- `npm install` to install the dependencies.
 
 ### Run tests <a name="run-tests"></a>
 
