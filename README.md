@@ -108,6 +108,7 @@ fetch("https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/", {
 ```
 - Create a `.env` file and copy the game id and paste it as follows:`API_KEY=Zl4d7IVkemOTTVg2fUdz`
 - add .env to .gitignore
+- commit
 
 ### Run tests <a name="run-tests"></a>
 
