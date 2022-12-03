@@ -85,6 +85,29 @@ To get a local copy up and running follow these simple example steps.
 
 - copy the repo's link and clone it by writing `git clone https://github.com/fmanimashaun/leaderboard.git` on your git bash terminal.
 - `npm install` to install the dependencies
+- run the following command to create a api key:
+```
+fetch("https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/", {
+  method: 'POST',
+  body: JSON.stringify({ 
+	"name": "<enter your desired game name here>" 
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+
+  // you should get a response like this:
+
+  {
+	"result": "Game with ID: Zl4d7IVkemOTTVg2fUdz added."
+  }
+
+```
+- Create a `.env` file and copy the game id and paste it as follows:`API_KEY=Zl4d7IVkemOTTVg2fUdz`
+- add .env to .gitignore
 
 ### Run tests <a name="run-tests"></a>
 
