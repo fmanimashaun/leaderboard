@@ -24,7 +24,7 @@
           <!-- ***********************  SCOREBOARD HEADER SECTION *********************** -->
           <div class="scoreboard__header">
             <h2 class="scoreboard__title">Recent scores</h2>
-            <button class="scoreboard__refresh-btn" type="button">Refresh</button>
+            <button class="scoreboard__refresh-btn" id="refresh-btn" type="button">Refresh</button>
           </div>
           <!-- ***********************  END OF SCOREBOARD HEADER SECTION *********************** -->
 
@@ -44,11 +44,11 @@
           <!-- ***********************  ADD SCORE FORM SECTION *********************** -->
           <form class="add__score-form">
             <label class="add__score-label" for="name">
-              <input type="text" minlength='1' name="name" id="name" placeholder="Your name" required>
+              <input type="text" minlength='1' name="name" id="name" placeholder="Your name">
             </label>
 
             <label class="add__score-label" for="score">
-              <input type="number" min='0' name="score" id="score" placeholder="Your score" required>
+              <input type="text" inputmode='numeric' name="score" id="score" placeholder="Your score">
             </label>
 
             <input class="add__score-btn" type="submit" value="Submit">
