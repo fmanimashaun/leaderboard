@@ -12,6 +12,9 @@ const displayScore = () => {
     // set scoreboardcontainer innerHTML
     scoreboardContainer.innerHTML = scoreHtml;
   } else {
+    // sort scores in deceasing order
+    scores.sort((a, b) => b.score - a.score);
+
     // create scoreboardcontainer innerHTML
     const scoreHtml = scores.map((score) => `<p class="scoreboard__score-item">${score.user}: ${score.score}</p>`).join('');
 
