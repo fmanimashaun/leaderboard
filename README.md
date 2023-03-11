@@ -108,6 +108,10 @@ To get a local copy up and running follow these simple example steps.
 - [LinkedIn](https://www.linkedin.com/in/fmanimashaun/)
 - [Website](https://fmanimashaun.com)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Add more styling to the page.
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -117,6 +121,10 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your suppor <a name="support"></a>
 
 Give a ⭐️ if you like this project!
+
+## 🙏 Acknowledgements <a name="acknowledgements"></a>
+
+- [Microverse](https://www.microverse.org/)
 
 ## 📝 License <a name="license"></a>
 This project is [MIT](./LICENSE) licensed.
